@@ -515,3 +515,64 @@ iframe {
     text-align: end;
 }
 /* End of Footer */
+
+/* Start of about section */
+#about {
+    width: 100%;
+    display: flex;
+    background-image: url("../images/background/about-background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 10px;
+}
+
+.about-wrapper {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+
+.about-wrapper h1 {
+    font-size: 3rem;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+}
+
+.inner-content {
+    columns: 4 250px;
+    margin: auto 30px;
+    column-rule: 2px solid #000;
+    column-gap: 3rem;
+}
+
+.inner-content h2 {
+    color: #fff;
+    padding: 1rem;
+    background-color: #000;
+
+}
+
+.inner-content h3 {
+    color: #fff;
+    background-color: #333;
+    break-inside: avoid;
+    padding: 1rem;
+}
+
+.inner-content p {
+    margin: 10px auto;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-shadow: 1px 1px 3px #ffffff7a;
+}
+
+.inner-content .quote {
+    font-size: 1.5rem;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+    font-weight: bold;
+    text-align: center;
+    column-span: all;
+}
+/* End of About section */
