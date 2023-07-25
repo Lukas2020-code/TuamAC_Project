@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&family=Kalam&family=Roboto+Mono&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+h1,
+h2 {
+    font-family: "Azeret Mono", "Roboto Mono", monospace;
+}
+
+h3,
+p {
+    font-family: "Roboto Mono", "Azeret Mono", monospace;
+}
+
+/* Header starts here */
+#site-header {
+    display: flex;
+    /* height: 75px; */
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+#logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#logo img {
+    width: 75px;
+    height: auto;
+}
+
+#club-name {
+    display: flex;
+    line-height: 75px;
+    white-space: nowrap;
+    margin: 0 auto 0 20px;
+    letter-spacing: 3px;
+}
+
+#club-name h2 {
+    font-size: 1.5rem;
+}
+
+#nav-menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    line-height: 75px;
+}
+
+#nav-menu li {
+    margin-left: 10px;
+}
+
+#nav-menu a {
+    text-decoration: none;
+    font-size: 20px;
+    color: inherit;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#nav-menu a:hover,
+#nav-menu a:focus {
+    color: #fff;
+    background-color: #0B8643;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.active {
+    border-bottom: 1px solid #0B8643;
+}
+/* Header finish here */
