@@ -85,3 +85,47 @@ p {
     border-bottom: 1px solid #0B8643;
 }
 /* Header finish here */
+
+/* Main */
+
+/* Hero section */
+
+#hero {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/background/athletes-picture.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hero-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-size: 3rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.45);
+    text-shadow: 5px 5px 10px #000;
+}
+
+.content h2 {
+    font-family: "Kalam", monospace, sans-serif;
+    font-size: 3.75rem;
+    letter-spacing: 5px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: end;
+    padding-left: 20px;
+}
+
+/* End of hero section */
