@@ -84,6 +84,7 @@ p {
 .active {
     border-bottom: 1px solid #0B8643;
 }
+
 /* Header finish here */
 
 /* Main */
@@ -129,3 +130,180 @@ p {
 }
 
 /* End of hero section */
+
+/* Start of Welcome section */
+#welcome {
+    padding: 50px;
+    background-color: #fff;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome h1 {
+    font-size: 3.625rem;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.597);
+}
+
+#welcome h2 {
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+}
+
+#welcome-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: rgba(186, 236, 165, 0.5);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+#welcome p {
+    margin: 10px auto;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    word-spacing: 3px;
+}
+
+#welcome span a {
+    text-decoration: none;
+    background-color: rgba(11, 134, 67, 0.4);
+    color: #000;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+
+#welcome span a:hover,
+#welcome span a:focus {
+    color: #fff;
+    background-color: rgb(11, 134, 67);
+    border: 1px solid #000;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+/* End of welcome section*/
+
+/* Start of Why-us section */
+#why-us {
+    width: 100%;
+    display: flex;
+    background-image: url("../images/background/why-us-background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 0 30px 30px;
+}
+
+.why-us-wrapper {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    color: #fff;
+    text-shadow: 4px 4px 9px #000;
+    letter-spacing: 2px;
+}
+
+.why-us-wrapper h2 {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+}
+
+.why-us-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 25px 0 0 25px;
+    margin: 10px 0;
+}
+
+.box-wrapper h3 {
+    font-size: 28px;
+    padding: 0 10px;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.box-wrapper img {
+    width: 250px;
+    height: auto;
+    margin-left: 5px;
+}
+
+.reason1 {
+    margin-left: 56%;
+    border: 5px solid #0081C8;
+    background-color: rgba(0, 130, 200, 0.50);
+    border-right-style: none;
+}
+
+.reason2 {
+    margin-left: 49%;
+    border: 5px solid #FCB131;
+    background-color: rgba(252, 177, 49, 0.50);
+    border-right-style: none;
+}
+
+.reason3 {
+    margin-left: 42%;
+    border: 5px solid #000;
+    background-color: rgba(0, 0, 0, 0.50);
+    border-right-style: none;
+}
+
+.reason4 {
+    margin-left: 35%;
+    border: 5px solid #00A651;
+    background-color: rgba(0, 166, 80, 0.50);
+    border-right-style: none;
+}
+
+.reason5 {
+    margin-left: 28%;
+    border: 5px solid #EE334E;
+    background-color: rgb(238, 51, 78, 0.50);
+    border-right-style: none;
+}
+
+#why-us p {
+    margin: 20px auto;
+    letter-spacing: 1px;
+    font-size: 1.25rem;
+    word-spacing: 3px;
+}
+
+#why-us span a {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(8, 138, 43);
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+
+#why-us span a:hover,
+#why-us span a:focus {
+    background-color: rgba(46, 145, 73, 0.523);
+    color: #000;
+}
+/* End of why us section  */
