@@ -884,3 +884,82 @@ input[type=reset]:hover {
         height: 80vh;
     }
 }
+
+/* Media query for large screens up to 1200px - desktop and laptops */
+@media screen and (max-width: 1200px) {
+
+    #hero-content-wrapper {
+        width: 50%;
+        flex-direction: column;
+        padding: 0;
+        border-radius: 20px;
+    }
+
+    .hero-inner-content h2 {
+        font-weight: 500;
+        font-size: 3.5rem;
+        padding: 10px;
+        text-align: center;
+        letter-spacing: 5px;
+    }
+
+    .welcome-container h1 {
+        font-size: 3.25rem;
+    }
+
+    .welcome-box h2,
+    .why-us-container h2,
+    .competitions-message h2,
+    .trainings-container h2 {
+        font-size: 2.25rem;
+    }
+
+    .disciplines-container {
+        width: 90%;
+    }
+
+    .disciplines-container h2 {
+        font-size: 2rem;
+    }
+
+    .disciplines-content {
+        padding: 1rem;
+    }
+
+    .disciplines-icoms h3 {
+        font-size: 21px;
+        padding-bottom: 10px;
+    }
+
+    .why-us-content h3 {
+        font-size: 1.75rem;
+    }
+
+    .competitions-message h2 {
+        font-size: 2.25rem;
+    }
+
+    .competitions-message p {
+        font-size: 20px;
+    }
+
+    .about-content p {
+        font-size: 19px;
+    }
+
+    .gallery p {
+        font-size: 22px;
+    }
+
+    .photos {
+        padding: 20px;
+    }
+
+    .thank-you-content h2 {
+        font-size: 1.35rem;
+    }
+
+    .thank-you-content p {
+        font-size: 1.25rem;
+    }
+}
