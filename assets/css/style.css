@@ -836,3 +836,45 @@ input[type=reset]:hover {
 }
 
 /* End of thank you website */
+
+
+/* Media Queries */
+
+/* Media query for large screens up to 1440px */
+@media screen and (max-width: 1440px) {
+    #header-club-name {
+        margin: 0 auto;
+    }
+
+    #header-club-name h2 {
+        font-size: 2rem;
+    }
+
+    #nav-bar {
+        margin: 0 auto;
+    }
+
+    .welcome-box {
+        padding: 30px;
+    }
+
+    .welcome-box p {
+        font-size: 1.25rem;
+    }
+
+    .disciplines-containers {
+        width: 70%;
+    }
+
+    .about-content h3 {
+        font-size: 1.5rem;
+    }
+
+    .about-content p {
+        font-size: 1.25rem;
+    }
+
+    .photos {
+        column-count: 3;
+    }
+}
