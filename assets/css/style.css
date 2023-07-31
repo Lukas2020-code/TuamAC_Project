@@ -204,7 +204,7 @@ a {
 
 .disciplines-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     height: fit-content;
     padding: 1.5rem;
@@ -1018,6 +1018,10 @@ input[type=reset]:hover {
 
 /* Maedia query for devices up to 992px - LANDSCAPE*/
 @media screen and (max-width: 992px) {
+
+    .disciplines-content {
+        justify-content: space-around;
+    }
 
     .footer-content a {
         font-size: 1rem;
