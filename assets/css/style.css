@@ -741,11 +741,11 @@ a {
 }
 
 .contact-by-details {
-    margin: 10px 0;
+    margin: 5px 0 10px;
 }
 
 .form-reasons {
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .form-message label {
@@ -772,6 +772,7 @@ textarea {
 
 
 .form-reasons #reasons {
+    width: 100%;
     padding: 3px;
 }
 
@@ -1390,15 +1391,28 @@ input[type=reset]:hover {
 
     .disciplines-content {
         flex-direction: column;
+        width: fit-content;
+        padding: 20px;
+        margin: 0 auto;
     }
+
+    .disciplines-icons img {
+        width: 80px;
+        height: auto;
+    }
+
+    .disciplines-icons a {
+        font-size: 12px;
+    }
+
 
     .why-us-content h3 {
         font-size: 1.1rem;
     }
 
-    .why-us-content img {
+    /* .why-us-content img {
         margin-left: 5px;
-    }
+    } */
 
     .why-us-wrapper p {
         font-size: 18px;
@@ -1519,6 +1533,7 @@ input[type=reset]:hover {
     .why-us-content img {
         width: 150px;
         height: auto;
+        padding-right: 5px;
     }
 
     .competitions-message p {
@@ -1563,10 +1578,18 @@ input[type=reset]:hover {
 
     #form-section {
         padding: 10px;
+        height: fit-content;
     }
 
+    .buttons {
+        flex-direction: column;
+        width: fit-content;
+        padding-bottom: 10px;
+    }
+
+    /* 
     .contact-form {
         min-width: 250px;
-    }
+    } */
 
 }
