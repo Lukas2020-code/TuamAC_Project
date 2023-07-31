@@ -1,6 +1,6 @@
 # Tuam AC Juvenile Section
 
-Tuam AC is a website that introduces the club to the local community as well as the rest of the Irish resident. ?
+Tuam AC is a website that introduces the club to the local community as well as the rest of the Irish resident.
 
 The Tuam AC Juveniles website is about the youth section of the Tuam Athletics Club. Its main purpose is to inform people about the club in the Tuam area, County Galway, Ireland. As well as about the disciplines that young people are practiced in the club.
 
@@ -124,7 +124,7 @@ The rest pictures/images are taken from [!Unsplash](https://unsplash.com/) websi
 
 ### Colors
 
-The main colors of the website are white and green. Both where took from the club logo. Only for the Why Us? section I used olimpic rings colors for the reasons.
+The main colors of the website are white and green. Both where took from the club logo. Only for the Why Us? section I used olimpic rings colors for the five reasons why to join..
 
 ### Fonts
 
@@ -147,12 +147,22 @@ The main fonts which I used for the website are Lato, Open Sans and Roboto. All 
 - #### Accessibility
   - The site achieved a Lighthouse accessibility score of 100% which confirms that the colours and fonts chosen are easy to read and accessible
 
-![Lighthouse score] (zdjecie z wynikiem z testu lighthouse z folderu docs na githubie np. dosc/readme_images/lighthouse_testing.png)
+![Lighthouse score] (zdjecie z wynikiem z testu lighthouse z folderu docs na githubie np. dosc/readme-images/lighthouse-testing.png)
 
 ## Bugs
 
 - ### Thank you site
   - In footer the social media section is not visible. Don't know how to fix this. Will look for solution.
+
+## Technologies Used
+
+- ### Languages
+- HTML 5
+- CSS
+
+### Framework - Libraries - Programs Used
+
+- [Am i Responsive](https://ui.dev/amiresponsive) - used to check responsivenes of the website on different screen devices
 
 ## Deployment
 
