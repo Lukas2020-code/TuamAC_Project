@@ -194,7 +194,7 @@ a {
 .disciplines-container {
     width: 80%;
     text-align: center;
-    margin: 20px auto;
+    margin: 20px 0;
 }
 
 .disciplines-container h2 {
@@ -285,7 +285,7 @@ a {
 
 .why-us-content h3 {
     font-size: 2rem;
-    padding-left: 40px;
+    padding: 0 50px;
     color: #fff;
     text-align: center;
     text-shadow: 2px 2px 5px #000;
@@ -294,8 +294,6 @@ a {
 .why-us-content img {
     width: 300px;
     height: auto;
-    padding-left: 40px;
-
 }
 
 .reason1 {
@@ -432,7 +430,7 @@ a {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 1.5rem;
-    padding-bottom: 20px;
+    padding: 10px 0 20px;
     letter-spacing: 4px;
 }
 
@@ -666,6 +664,7 @@ a {
 
 .gallery h2 {
     font-size: 1.75rem;
+    padding: 0 60px;
     margin-bottom: 10px;
 }
 
@@ -871,10 +870,6 @@ input[type=reset]:hover {
         padding: 30px;
     }
 
-    .disciplines-containers {
-        width: 70%;
-    }
-
     .about-content h3 {
         font-size: 1.5rem;
     }
@@ -1000,13 +995,11 @@ input[type=reset]:hover {
 
     .why-us-content h3 {
         font-size: 1.5rem;
-        padding-left: 10px;
+        padding: 0 30px;
     }
 
     .why-us-content img {
         width: 250px;
-        height: auto;
-        padding-left: 10px;
     }
 
     .competitions-content {
@@ -1032,6 +1025,10 @@ input[type=reset]:hover {
 
     .footer-left a {
         margin-left: 10px;
+    }
+
+    .gallery h2 {
+        padding: 0 20px;
     }
 
     .photos {
@@ -1070,7 +1067,6 @@ input[type=reset]:hover {
 
     .welcome-box {
         padding: 20px;
-
     }
 
     .welcome-box p {
@@ -1080,14 +1076,11 @@ input[type=reset]:hover {
     .disciplines-content {
         width: 90%;
         justify-content: space-evenly;
+        flex-wrap: wrap;
     }
 
-    .why-us-content h3 {
-        font-size: 1.5rem;
-    }
-
-    .why-us-content img {
-        width: 200px;
+    .disciplines-content h3 {
+        font-size: 1.25rem;
     }
 
     .reason1 {
@@ -1126,12 +1119,8 @@ input[type=reset]:hover {
         padding: 2rem;
     }
 
-    .competitions-content h3 {
-        font-size: 1.75rem;
-    }
-
-    .competitions-content li {
-        font-size: 1.5rem;
+    .competitions-box {
+        width: 80%;
     }
 
     .trainings-container h2 {
@@ -1148,21 +1137,18 @@ input[type=reset]:hover {
     .trainings-days {
         width: 95%;
         margin: 0 auto;
-        padding: 10px 0;
+        padding: 5px 10px 10px;
         background-color: rgba(0, 0, 0, 0.7);
-        border-radius: 20px 20px 0 0;
+        border-radius: 20px;
     }
 
     .trainings-days h3 {
         padding: 5px;
-        color: #fff;
-        text-align: center;
         text-transform: none;
     }
 
     .trainings-days iframe {
-        height: 250px;
-        border-radius: 0;
+        height: 300px;
     }
 
     .footer-social-media {
@@ -1180,6 +1166,19 @@ input[type=reset]:hover {
 
     .gallery h2 {
         font-size: 1.5rem;
+        padding: 0 30px;
+    }
+
+    .contact-form h2 {
+        font-size: 1.75rem;
+    }
+
+    #thank-you {
+        align-items: center;
+    }
+
+    .thank-you-content h2 {
+        font-size: 1.35rem;
     }
 }
 
@@ -1229,11 +1228,6 @@ input[type=reset]:hover {
         padding: 10px;
     }
 
-    .disciplines-icons h3 {
-        font-size: 1.15rem;
-        padding: 5px;
-    }
-
     .why-us-container h2 {
         font-size: 2rem;
         margin-bottom: 15px;
@@ -1246,9 +1240,13 @@ input[type=reset]:hover {
     .why-us-content h3 {
         font-family: 'Open Sans', 'Roboto', sans-serif;
         margin: 0 auto;
-        font-size: 1.25rem;
         color: #fff;
         text-shadow: 2px 2px 2px #000;
+    }
+
+    .why-us-content img {
+        margin-right: 0;
+        padding-right: 0;
     }
 
     .small-screens {
@@ -1277,12 +1275,15 @@ input[type=reset]:hover {
     }
 
     .competitions-content h3 {
-        font-size: 1.5rem;
         letter-spacing: 2px;
     }
 
     .competitions-content li {
         font-size: 1.25rem;
+    }
+
+    .competitions-box {
+        width: 100%;
     }
 
     #trainings {
@@ -1320,11 +1321,6 @@ input[type=reset]:hover {
     .gallery h1 {
         padding: 0 20px;
         margin-bottom: 30px;
-    }
-
-    .gallery h2 {
-        padding: 0 20px;
-        margin: 0 20px;
     }
 
     .gallery p {
@@ -1367,7 +1363,7 @@ input[type=reset]:hover {
     }
 
     #hero-content-wrapper {
-        padding: 10px 20px;
+        padding: 2% 5%;
     }
 
     .hero-inner-content h2 {
@@ -1392,27 +1388,22 @@ input[type=reset]:hover {
     .disciplines-content {
         flex-direction: column;
         width: fit-content;
-        padding: 20px;
+        padding: 20px 30px;
         margin: 0 auto;
-    }
-
-    .disciplines-icons img {
-        width: 80px;
-        height: auto;
     }
 
     .disciplines-icons a {
         font-size: 12px;
     }
 
-
     .why-us-content h3 {
         font-size: 1.1rem;
+        padding: 0 5px;
     }
 
-    /* .why-us-content img {
-        margin-left: 5px;
-    } */
+    .why-us-content img {
+        width: 175px;
+    }
 
     .why-us-wrapper p {
         font-size: 18px;
@@ -1425,7 +1416,7 @@ input[type=reset]:hover {
     }
 
     .competitions-content {
-        padding: 2.5rem;
+        padding: 1rem;
     }
 
     .trainings-container h2 {
@@ -1437,17 +1428,7 @@ input[type=reset]:hover {
     }
 
     .trainings-days {
-        padding: 5px 5% 5% 5%;
-        border-radius: 20px;
-    }
-
-    .trainings-days h3 {
-        font-size: 1.3rem;
-    }
-
-    .trainings-days iframe {
-        height: 250px;
-        border-radius: 20px;
+        padding: 5px 2% 2%;
     }
 
     #about {
@@ -1477,6 +1458,7 @@ input[type=reset]:hover {
     }
 
     #thank-you {
+        height: 60vh;
         padding: 2% 5%;
     }
 
@@ -1528,12 +1510,13 @@ input[type=reset]:hover {
 
     .why-us-content h3 {
         font-size: 1rem;
+        margin: 0;
+        padding-left: 5px;
     }
 
     .why-us-content img {
-        width: 150px;
+        width: 125px;
         height: auto;
-        padding-right: 5px;
     }
 
     .competitions-message p {
@@ -1541,17 +1524,11 @@ input[type=reset]:hover {
     }
 
     .competitions-content {
-        padding: 1.5rem;
+        padding: 5px;
     }
 
     .competition-box {
         height: 350px;
-    }
-
-    .trainings-days {
-        width: 100%;
-        padding: 5px 10px 10px 10px;
-        margin: 0 auto;
     }
 
     .trainings-days h3 {
@@ -1586,10 +1563,4 @@ input[type=reset]:hover {
         width: fit-content;
         padding-bottom: 10px;
     }
-
-    /* 
-    .contact-form {
-        min-width: 250px;
-    } */
-
 }
