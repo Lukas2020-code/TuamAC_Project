@@ -4,7 +4,7 @@ Tuam AC is a website that introduces the club to the local community as well as 
 
 The Tuam AC Juveniles website is about the youth section of the Tuam Athletics Club. Its main purpose is to inform people about the club in the Tuam area, County Galway, Ireland. As well as about the disciplines that young people are practiced in the club.
 
-The link to the website can be found here - [Tuam AC Juveniles]()
+The link to the website can be found here - [Tuam AC Juveniles](https://lukas2020-code.github.io/TuamAC_Project/)
 
 ![Tuam AC Juveniles Am I Responsive Image](docs/readme-images/am-i-responsive.png)
 
@@ -17,7 +17,7 @@ The link to the website can be found here - [Tuam AC Juveniles]()
 
 ## User view
 
-User should be able to find information about the disciplines
+User should be able to find information about the disciplines which are training within the club. It should also find the information about trainings, competitions and be able to contact the club if have any questions.
 
 ## Features
 
@@ -32,7 +32,7 @@ There is also Contact Us website with form for users if they need to contact the
 - ### Navigation Bar
   - The fully responsive navigation bar includes club logo, club name and navigation links to Club Logo, Home, Why Us?, Competitions, Trainings, About, Gallery and Contact Us.
 
-![Nav bar image](docs/documents/nav-bar.png)
+![Nav bar image](docs/readme-images/nav-bar.png)
 
 - ### The landing page image
   - The landig image includes athletes of Tuam AC with a text that include the club spirit.
@@ -52,32 +52,44 @@ There is also Contact Us website with form for users if they need to contact the
   - Each reason has different background and frame color taken from the Olympic flag to give the user a sense that this club is something special.
   - There is also a link to Contact Us website to help the user contact the club.
 
+![Why us section image](docs/readme-images/why-us-section.png)
+
 - ### Competitions Section
 
   - Introduce the user the three main competitions in which Tuam AC athletes take part during the season year (Indoor, Outdoor, Cross Contry).
   - Each event is divided by three competition types - Indoor, Outdoor and All-Ireland.
+
+![Competitions section image](docs/readme-images/competitions-section.png)
 
 - ### Trainings Section
 
   - This section is to inform the user on what days and at what time there is training for children.
   - It also lists the location where the training will take place with an attached map for easier finding.
 
+![Trainings section image](docs/readme-images/trainings-section.png)
+
 - ### Footer
 
   - The footer includes links to the relevant social media platforms such as Facebook, Instagram, Twitter and YouTube.
   - The links are open in new tabs to provide easy navigation for the user.
 
-  - It also provodes likns to club Code of Conduct and Polices which should open i pop up window.
-  - There is also club logo link in the middle of the footer which allow user to back on the main page.
-  - It also inludes a copyright and designer information as well as allow user to contact the owner of the page.
+  - It also provodes likns to club Code of Conduct and Polices which should open in a pop up window.
+  - There is also club logo link in the middle of the footer which allow user to go back on the main page.
+  - It also includes a copyright and designer information as well as allow user to contact the owner of the page throught the email.
+
+![Footer image](docs/readme-images/footer.png)
 
 - ### About Website
   - The About section will give user a short brief of the beggining of Tuam AC. It also provides information about start of juveniles section under the Tuam AC.
+
+![About website image](docs/readme-images/about-page.png)
 
 <!--
 - ### Gallery Website
     - The gallery will provide the user with images of Tuam AC athletes in the competitions they have participated in.
  -->
+
+![Gallery website image](docs/readme-images/gallery-page.png)
 
 - ### Contact Website
 
@@ -85,8 +97,13 @@ There is also Contact Us website with form for users if they need to contact the
   - It also specify that the user should fill the form in given way and mandatory fields should be fill in exact way for the form could be submitted.
   - It also provides user with an option about the reason of contact like joining the club, trainings, competitions or general querie.
 
+![Contact website image](docs/readme-images/contact-page.png)
+
 - ### Thank You Website
-  - This wesite provide a short notice to the user that the form was submitted
+
+  - This wesite provide a information to the user that the form was succecfully submitted.
+
+![Thank you website](docs/readme-images/thank-you-page.png)
 
 ### Features Left to Implement
 
