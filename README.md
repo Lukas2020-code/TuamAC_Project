@@ -4,9 +4,9 @@ Tuam AC is a website that introduces the club to the local community as well as 
 
 The Tuam AC Juveniles website is about the youth section of the Tuam Athletics Club. Its main purpose is to inform people about the club in the Tuam area, County Galway, Ireland. As well as about the disciplines that young people are practiced in the club.
 
+The link to the website can be found here - [Tuam AC Juveniles]()
 
-
-
+![Tuam AC Juveniles Am I Responsive Image](../TuamAC_Project/docs/readme-images/am-i-responsive.png)
 
 ## Site owner goals
 
