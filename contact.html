@@ -10,19 +10,19 @@
     <meta name="keywords" content="tuam, athletics ireland, athletic club, ireland, co. galway, athletics, juveniles">
     <meta name="author" content="Lukasz Kostrubiec">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <link rel="icon" href="assets/images/tuam-athletics-club-logo.png" type="image/x-icon">
+    <link rel="icon" href="assets/images/tuam-athletics-club-logo.webp" type="image/x-icon">
     <title>Contact Us!</title>
 </head>
 
 <body>
     <header id="site-header">
-        <div id="logo">
+        <div id="header-logo">
             <a href="index.html">
-                <img src="assets/images/tuam-athletics-club-logo.webp" alt="Tuam Athletics Logo" width="250"
+                <img src="assets/images/tuam-athletics-club-logo.webp" alt="Tuam Athletics Logo" width="255"
                     height="255">
             </a>
         </div>
-        <div id="club-name">
+        <div id="header-club-name">
             <h2>Tuam Athletics Club</h2>
         </div>
 
@@ -58,25 +58,26 @@
         <section id="form-section">
             <form method="get" action="thankyou.html" class="contact-form">
                 <h2>Contact Form</h2>
-                <div class="form-contact-details">
+                <div class="person-contact-details">
                     <label for="name">Name</label>
                     <input id="name" name="full_name" type="text" class="text-input" placeholder="e.g. Joe Doe"
                         required>
                 </div>
-                <div class="form-contact-details">
+                <div class="person-contact-details">
                     <label for="email">Email</label>
                     <input id="email" name="email" type="email" class="text-input"
                         placeholder="e.g. yourName@yourMail.com" required>
                 </div>
-                <div class="form-contact-details">
+                <div class="person-contact-details">
                     <label for="phone">Phone No.</label>
-                    <input id="phone" name="phone_number" class="text-input" type="tel" placeholder="080 123 4567">
+                    <input id="phone" name="phone_number" class="text-input" type="tel" placeholder="012 345 6789"
+                        pattern="[0-9]{3} [0-9]{3} [0-9]{4}" required>
                 </div>
-                <div>
+                <div class="contact-by">
                     <label>Contact me by: </label>
-                    <div class="contact-by">
+                    <div class="contact-by-details">
                         <label for="contact-by-email">Email</label>
-                        <input id="contact-by-email" type="radio" name="contact_by" value="email" checked>
+                        <input id="contact-by-email" type="radio" name="contact_by" value="email" required>
                         <label for="contact-by-phone">Phone</label>
                         <input id="contact-by-phone" type="radio" name="contact_by" value="phone">
                         <label for="contact-by-text">Text Message</label>
@@ -84,8 +85,9 @@
                     </div>
                 </div>
                 <div class="form-reasons">
-                    <label>Question about</label>
-                    <input id="reasons" name="reason_of_contact" list="reason" type="text" placeholder="Select option">
+                    <label>Question about:</label>
+                    <input id="reasons" name="reason_of_contact" list="reason" type="text" placeholder="Select option"
+                        required>
                     <datalist id="reason">
                         <option value="Joining the Club"></option>
                         <option value="Trainings"></option>
@@ -94,14 +96,14 @@
                     </datalist>
                 </div>
                 <div class="form-message">
-                    <label for="comment">Message</label><br>
+                    <label for="comment">Message:</label><br>
                     <textarea id="comment" cols="48" rows="10"
                         placeholder="Please write your comment here..."></textarea>
                 </div>
-
-                <input type="submit" value="Submit Form" class="block-label">
-                <input type="reset" value="Reset Form">
-
+                <div class="buttons">
+                    <input type="submit" value="Submit Form">
+                    <input type="reset" value="Reset Form">
+                </div>
             </form>
         </section>
 
@@ -151,6 +153,7 @@
 
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/95addb1658.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
