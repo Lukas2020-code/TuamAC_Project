@@ -1474,3 +1474,99 @@ input[type=reset]:hover {
         font-size: 18px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    #header-logo img {
+        width: 50px;
+        height: auto;
+    }
+
+    #headerclub-name h2 {
+        font-size: 1rem;
+    }
+
+    #nav-menu a {
+        font-size: 1rem;
+    }
+
+    #hero {
+        height: 80vh;
+    }
+
+    .hero-inner-content h2 {
+        font-size: 2.25rem;
+        padding: 0;
+    }
+
+    #welcome {
+        padding: 30px 0;
+    }
+
+    .welcome-box {
+        max-width: 100%;
+        margin: 0 5px;
+        padding: 20px 10px;
+    }
+
+    .welcome-box p {
+        font-size: 1.15rem;
+    }
+
+    .why-us-content h3 {
+        font-size: 1rem;
+    }
+
+    .why-us-content img {
+        width: 150px;
+        height: auto;
+    }
+
+    .competitions-message p {
+        width: 100%;
+    }
+
+    .competitions-content {
+        padding: 1.5rem;
+    }
+
+    .competition-box {
+        height: 350px;
+    }
+
+    .trainings-days {
+        width: 100%;
+        padding: 5px 10px 10px 10px;
+        margin: 0 auto;
+    }
+
+    .trainings-days h3 {
+        font-size: 1.25rem;
+    }
+
+    .about-wrapper h1 {
+        font-size: 2.25rem;
+        padding: 10px;
+    }
+
+    .about-content p,
+    .gallery p {
+        font-size: 1.1rem;
+    }
+
+    .gallery h1 {
+        font-size: 2.25rem;
+    }
+
+    .photos {
+        padding: 20px 10px 0;
+    }
+
+    #form-section {
+        padding: 10px;
+    }
+
+    .contact-form {
+        min-width: 250px;
+    }
+
+}
