@@ -53,6 +53,7 @@ There is also Contact Us website with form for users if they need to contact the
   - There is also a link to Contact Us website to help the user contact the club.
 
 ![Why us section image](docs/readme-images/why-us-section.png)
+![Why us section image](docs/readme-images/why-us-section2.png)
 
 - ### Competitions Section
 
