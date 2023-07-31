@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&family=Kalam&family=Roboto+Mono&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Open+Sans:ital,wght@0,500;1,600&family=Roboto:wght@500&display=swap');
 
 * {
     margin: 0;
     padding: 0;
+    border: 0;
     box-sizing: border-box;
 }
 
@@ -13,64 +13,54 @@ body {
 
 h1,
 h2 {
-    font-family: "Azeret Mono", "Roboto Mono", monospace;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
 }
 
 h3,
 p {
-    font-family: "Roboto Mono", "Azeret Mono", monospace;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Header starts here */
 #site-header {
     display: flex;
-    /* height: 75px; */
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
     align-content: center;
 }
 
-#logo {
-    display: flex;
-    justify-content: flex-start;
-}
-
-#logo img {
+#header-logo img {
+    display: block;
     width: 75px;
-    height: auto;
+    height: 75px;
 }
 
-#club-name {
-    display: flex;
+#header-club-name {
     line-height: 75px;
     white-space: nowrap;
     margin: 0 auto 0 20px;
     letter-spacing: 2px;
 }
 
-#club-name h2 {
-    font-size: 1.5rem;
+#header-club-name h2 {
+    font-size: 1.75rem;
 }
 
 #nav-menu {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     list-style-type: none;
     line-height: 75px;
 }
 
-#nav-menu li {
-    margin-left: 10px;
-}
-
 #nav-menu a {
     text-decoration: none;
-    font-size: 20px;
     color: inherit;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
     padding: 10px;
-    margin-right: 10px;
+    margin-right: 2rem;
 }
 
 #nav-menu a:hover,
@@ -87,10 +77,10 @@ p {
 
 /* Header finish here */
 
+
 /* Main */
 
 /* Hero section */
-
 #hero {
     width: 100%;
     height: 80vh;
@@ -103,37 +93,32 @@ p {
     background-repeat: no-repeat;
 }
 
-#hero-content {
+#hero-content-wrapper {
     width: 100%;
+    height: fit-content;
     display: flex;
     justify-content: space-evenly;
-    padding: 20px;
-    font-size: 3rem;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hero-inner-content h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-style: italic;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.45);
-    text-shadow: 5px 5px 10px #000;
-}
-
-.content h2 {
-    font-family: "Kalam", monospace, sans-serif;
-    font-size: 3.75rem;
+    font-size: 4rem;
     letter-spacing: 5px;
-}
-
-.center {
-    text-align: center;
-}
-
-.right {
-    text-align: end;
-    padding-left: 20px;
+    white-space: nowrap;
+    text-shadow: 5px 5px 3px #000;
 }
 
 /* End of hero section */
 
+
 /* Start of Welcome section */
 #welcome {
-    padding: 50px;
+    padding: 30px;
     background-color: #fff;
     width: 100%;
     height: fit-content;
@@ -143,7 +128,7 @@ p {
     align-items: center;
 }
 
-#welcome h1 {
+.welcome-container h1 {
     font-size: 3.625rem;
     padding-bottom: 20px;
     letter-spacing: 5px;
@@ -151,46 +136,49 @@ p {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.597);
 }
 
-#welcome h2 {
-    font-size: 2.5rem;
-    letter-spacing: 3px;
-}
-
-#welcome-box {
+.welcome-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
     border: 2px solid #000;
     border-radius: 10px;
     background-color: rgba(186, 236, 165, 0.5);
-    max-width: 600px;
+    max-width: 60%;
     margin: 0 auto;
-    line-height: 1.5;
+    line-height: 1.2;
 }
 
-#welcome p {
+.welcome-box h2 {
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+}
+
+.welcome-box p {
     margin: 10px auto;
     letter-spacing: 1px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
+    font-style: oblique;
+    font-size: 1.25rem;
     word-spacing: 3px;
 }
 
-#welcome span a {
+.welcome-box a {
     text-decoration: none;
-    background-color: rgba(11, 134, 67, 0.4);
+    background-color: rgba(46, 145, 73, 0.523);
     color: #000;
     border-radius: 5px;
     padding: 2px 5px;
+    white-space: nowrap;
 }
 
-#welcome span a:hover,
-#welcome span a:focus {
+.welcome-box a:hover,
+.welcome-box a:focus {
     color: #fff;
-    background-color: rgb(11, 134, 67);
-    border: 1px solid #000;
+    background-color: rgb(8, 138, 43);
 }
 
 .underline {
@@ -198,16 +186,15 @@ p {
     text-decoration-color: red;
 }
 
-#disciplines {
+.disciplines-container {
+    width: 80%;
     text-align: center;
-    margin: 50px;
-    /* padding: 20px 0; */
-    width: 100%;
+    margin: 20px auto;
 }
 
-#disciplines h2 {
+.disciplines-container h2 {
     margin: 20px auto;
-    font-size: 1.75rem;
+    font-size: 2rem;
 }
 
 .disciplines-content {
@@ -223,18 +210,13 @@ p {
 }
 
 .disciplines-content h3 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 600;
-    padding: 1rem;
+    padding: 10px;
     margin: 0 auto;
 }
 
-.box-icon img {
-    width: 100px;
-    height: auto;
-}
-
-.box-icon {
+.disciplines-icons {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -242,8 +224,13 @@ p {
     margin: 10px;
 }
 
-.box-icon a {
-    font-size: 12px;
+.disciplines-icons img {
+    width: 100px;
+    height: auto;
+}
+
+.disciplines-icons a {
+    font-size: 1rem;
     color: inherit;
     text-decoration: none;
     flex-wrap: wrap;
@@ -252,18 +239,19 @@ p {
 
 /* End of welcome section*/
 
+
 /* Start of Why-us section */
 #why-us {
-    width: 100%;
     display: flex;
     background-image: url("../images/background/why-us-background.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 30px 0 30px 30px;
+    background-attachment: fixed;
+    padding: 30px 0;
 }
 
-.why-us-wrapper {
+.why-us-container {
     width: 100%;
     height: fit-content;
     text-align: center;
@@ -272,18 +260,17 @@ p {
     letter-spacing: 2px;
 }
 
-.why-us-wrapper h2 {
+.why-us-container h2 {
     font-size: 2.5rem;
     margin-bottom: 25px;
 }
 
-.why-us-box {
-    width: 100%;
+.why-us-wrapper {
     display: flex;
     flex-direction: column;
 }
 
-.box-wrapper {
+.why-us-content {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -291,78 +278,89 @@ p {
     margin: 10px 0;
 }
 
-.box-wrapper h3 {
-    font-size: 26px;
-    padding: 0 10px;
+.why-us-content h3 {
+    font-size: 2rem;
+    padding-left: 40px;
     color: #fff;
-    text-shadow: 3px 3px 2px #000;
+    text-align: center;
+    text-shadow: 2px 2px 5px #000;
 }
 
-.box-wrapper img {
-    width: 250px;
+.why-us-content img {
+    width: 300px;
     height: auto;
-    margin-left: 10px;
+    padding-left: 40px;
+
 }
 
 .reason1 {
-    margin-left: 43%;
-    border: 8px solid #0081C8;
-    background-color: rgba(0, 130, 200, 0.5);
+    margin-left: 40%;
+    border: 5px solid #0081C8;
+    background-color: rgba(0, 130, 200, 0.50);
     border-right-style: none;
 }
 
 .reason2 {
-    margin-left: 36%;
-    border: 8px solid #FCB131;
-    background-color: rgba(252, 177, 49, 0.5);
+    margin-left: 32.5%;
+    border: 5px solid #FCB131;
+    background-color: rgba(252, 177, 49, 0.50);
     border-right-style: none;
 }
 
 .reason3 {
-    margin-left: 29%;
-    border: 8px solid #000;
-    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 25%;
+    border: 5px solid #000;
+    background-color: rgba(0, 0, 0, 0.50);
     border-right-style: none;
 }
 
 .reason4 {
-    margin-left: 22%;
-    border: 8px solid #00A651;
-    background-color: rgba(0, 166, 80, 0.5);
+    margin-left: 17.5%;
+    border: 5px solid #00A651;
+    background-color: rgba(0, 166, 80, 0.50);
     border-right-style: none;
 }
 
 .reason5 {
-    margin-left: 15%;
-    border: 8px solid #EE334E;
-    background-color: rgb(238, 51, 78, 0.5);
+    margin-left: 10%;
+    border: 5px solid #EE334E;
+    background-color: rgb(238, 51, 78, 0.50);
     border-right-style: none;
 }
 
-#why-us p {
+.why-us-wrapper p {
+    color: #fff;
+    text-shadow: 2px 2px 10px #000;
     margin: 20px auto;
     letter-spacing: 1px;
-    font-size: 1.25rem;
-    word-spacing: 3px;
+    font-size: 1.35rem;
+    word-spacing: 5px;
+    padding: 10px 20px;
+    background-color: rgba(11, 134, 66, 0.8);
+    border-radius: 10px;
+    border: 1px solid #000;
 }
 
-#why-us span a {
+.why-us-wrapper a {
     text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.6);
     color: #fff;
-    background-color: rgb(8, 138, 43);
     border-radius: 5px;
     padding: 2px 5px;
+    white-space: nowrap;
 }
 
-#why-us span a:hover,
-#why-us span a:focus {
-    background-color: rgba(46, 145, 73, 0.523);
+.why-us-wrapper a:hover,
+.why-us-wrapper a:focus {
     color: #000;
+    background-color: rgba(255, 255, 255, 0.6);
+
 }
 
 /* End of why us section  */
 
-/* Start of Competitions section */
+
+/* Start of competitions section */
 #competitions {
     width: 100%;
     height: fit-content;
@@ -370,24 +368,24 @@ p {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    padding: 50px 0 50px 0;
+    padding: 30px 0;
     background-color: #fff;
 }
 
-.competitions-content {
+.competitions-message {
     text-align: center;
     height: fit-content;
 }
 
-.competitions-content h2 {
+.competitions-message h2 {
     font-size: 2.5rem;
     letter-spacing: 3px;
 }
 
-.competitions-content p {
-    width: 50%;
+.competitions-message p {
+    width: 70%;
     margin: 20px auto;
-    font-size: 1.25rem;
+    font-size: 1.4em;
     word-spacing: 3px;
 }
 
@@ -401,37 +399,39 @@ p {
     padding: 25px;
 }
 
-.competition-box {
+.competitions-box {
     display: grid;
     place-content: center;
     width: 100%;
     height: 400px;
     color: #fff;
-    border: 2px solid whitesmoke;
     border-radius: 20px;
     white-space: nowrap;
     text-align: center;
     margin: 0 auto;
+    padding: 10px;
 }
 
-.content-wrapper {
+.competitions-content {
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     border: 1px solid #000;
     border-radius: 20px;
-    padding: 22px;
+    padding: 2rem;
 }
 
-.content-wrapper h3 {
+.competitions-content h3 {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 1.5rem;
     padding-bottom: 20px;
     letter-spacing: 4px;
 }
 
-.content-wrapper li {
+.competitions-content li {
+    font-family: 'Roboto', sans-serif;
     list-style-type: none;
     font-size: 1.25rem;
     letter-spacing: 2px;
@@ -458,6 +458,7 @@ p {
 
 /* End of Competitions section */
 
+
 /* Start of Training section */
 #trainings {
     width: 100%;
@@ -466,53 +467,52 @@ p {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 
-#trainings h2 {
+.trainings-container h2 {
     color: #fff;
     font-size: 2.5rem;
     letter-spacing: 5px;
     text-shadow: 2px 2px 5px #000;
     text-align: center;
     margin: 0 auto;
-    padding: 10px 0;
 }
 
-.training-box {
+.trainings-box {
     width: 100%;
-    height: auto;
+    height: fit-content;
     display: flex;
     column-gap: 1.2rem;
     padding: 0 20px;
 }
 
-.training-days {
+.trainings-days {
     width: 33.33%;
-    margin: 50px auto;
+    margin: 30px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.training-days h3 {
+.trainings-days h3 {
     font-size: 1.3rem;
     padding: 10px 0;
     color: #fff;
     text-align: center;
-    text-transform: uppercase;
     text-shadow: 2px 2px 5px #000;
     letter-spacing: 2px;
     white-space: nowrap;
 }
 
-iframe {
+.trainings-days iframe {
     width: 100%;
     border-radius: 20px;
-    border: 1px solid #000;
+    border: 2px solid #000;
 }
 
 /* Ebd of Training section */
+
 
 /* Start of Footer */
 #footer {
@@ -579,6 +579,7 @@ iframe {
 
 /* End of Footer */
 
+
 /* Start of about section */
 #about {
     width: 100%;
@@ -587,7 +588,7 @@ iframe {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 50px 10px;
+    padding: 50px 25px;
 }
 
 .about-wrapper {
@@ -602,35 +603,30 @@ iframe {
     letter-spacing: 3px;
 }
 
-.inner-content {
+.about-content {
     columns: 4 250px;
     margin: auto 30px;
     column-rule: 2px solid #000;
     column-gap: 3rem;
 }
 
-.inner-content h2 {
-    color: #fff;
-    padding: 1rem;
-    background-color: #000;
-
-}
-
-.inner-content h3 {
+.about-content h3 {
+    font-size: 1.75rem;
     color: #fff;
     background-color: #333;
     break-inside: avoid;
     padding: 1rem;
 }
 
-.inner-content p {
+.about-content p {
     margin: 10px auto;
-    font-size: 1.2rem;
+    font-size: 1.35rem;
     font-weight: 600;
     text-shadow: 1px 1px 3px #ffffff7a;
+    line-height: 1.4;
 }
 
-.inner-content .quote {
+.about-content .quote {
     font-size: 1.5rem;
     color: #fff;
     text-shadow: 2px 2px 5px #000;
@@ -641,55 +637,56 @@ iframe {
 
 /* End of About section */
 
+
 /* Start of Gallery */
 .gallery {
     text-align: center;
-    margin: 50px auto;
 }
 
 .gallery h1 {
     font-size: 3rem;
-    margin-bottom: 50px;
+    margin: 30px;
     letter-spacing: 3px;
 }
 
 .gallery p {
-    margin: 0 20px;
+    margin: 0 10%;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.35rem;
     padding-bottom: 2rem;
 }
 
 .gallery h2 {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
+    margin-bottom: 10px;
 }
 
 .photos {
     line-height: 1em;
     column-count: 4;
     column-gap: 0.5em;
-    padding: 20px;
+    padding: 20px 40px;
 }
 
 .photos img {
     width: 100%;
 }
 
-/* End of Gallery section  */
+/* End of photos section  */
+
 
 /* Start of contact-us section */
 #form-section {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    /* width: 100%; */
     height: fit-content;
     background-image: url('../images/background/form-image.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     text-shadow: 2px 2px 5px #000;
-    padding: 2% 5%;
+    padding: 3% 10%;
 }
 
 .contact-form {
@@ -726,11 +723,18 @@ iframe {
     border-radius: 2px;
 }
 
-.form-contact-details label {
-    font-size: 1.2rem;
+.person-contact-details label {
+    font-size: 1.35rem;
 }
 
-.contact-by {
+.contact-by label,
+.contact-by input,
+.form-reasons label {
+    font-size: 1.25rem;
+    margin-right: 10px;
+}
+
+.contact-by-details {
     margin: 10px 0;
 }
 
@@ -738,12 +742,17 @@ iframe {
     padding-bottom: 10px;
 }
 
-.form-message textarea {
-    margin-top: 10px;
+.form-message label {
+    font-size: 1.25rem;
 }
 
-.block-label {
-    display: block;
+.form-message textarea {
+    margin-top: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
 }
 
 input {
@@ -757,7 +766,7 @@ textarea {
 
 input[type=submit] {
     color: #fff;
-    background-color: #0B8643;
+    background-color: rgb(8, 138, 43);
     padding: 10px;
     border: 1px solid #000;
     border-radius: 5px;
@@ -766,12 +775,12 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: rgba(186, 236, 165, 0.5);
-    color: #000;
+    background-color: #fff;
+    color: rgb(8, 138, 43);
 }
 
 input[type=reset] {
-    color: #0B8643;
+    color: rgb(8, 138, 43);
     background-color: #fff;
     padding: 10px;
     border: 1px solid #000;
@@ -781,25 +790,26 @@ input[type=reset] {
 }
 
 input[type=reset]:hover {
-    background-color: rgba(186, 236, 165, 0.5);
-    color: #000;
+    background-color: rgb(8, 138, 43);
+    color: #fff;
 }
 
 /* End of form-section */
+
 
 /* Start of thank you site */
 #thank-you {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
-    height: 800px;
+    height: 100vh;
     background-image: url('../images/background/form-image.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     text-shadow: 2px 2px 5px #000;
-    padding: 10% 5%;
+    padding: 3% 10%;
 }
 
 .thank-you-content h2 {
@@ -807,20 +817,23 @@ input[type=reset]:hover {
 }
 
 .thank-you-content p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-align: center;
     margin-top: 25px;
+    letter-spacing: 1px;
 }
 
 .thank-you-content a {
     color: inherit;
-    background-color: rgba(46, 145, 73, 0.523);
+    background-color: rgb(8, 138, 43);
+    ;
     border-radius: 5px;
     padding: 2px 10px;
 }
 
-.thank-you-content a:hover {
-    background-color: rgb(8, 138, 43);
+.thank-you-content a:hover,
+.thank-you-content a:focus {
+    background-color: rgba(46, 145, 73, 0.523);
 }
 
-/* End of thank you site */
+/* End of thank you website */
