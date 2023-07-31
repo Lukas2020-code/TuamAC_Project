@@ -32,7 +32,7 @@ There is also Contact Us website with form for users if they need to contact the
 - ### Navigation Bar
   - The fully responsive navigation bar includes club logo, club name and navigation links to Club Logo, Home, Why Us?, Competitions, Trainings, About, Gallery and Contact Us.
 
-![Nav bar image](../TuamAC_Project/docs/readme-images/nav-bar.png)
+![Nav bar image](docs/documents/nav-bar.png)
 
 - ### The landing page image
   - The landig image includes athletes of Tuam AC with a text that include the club spirit.
