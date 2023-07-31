@@ -174,5 +174,5 @@ The project was deployed using GitHub pages. The steps to deploy using GitHub pa
 5. Once selected, click the 'Save'.
 6. Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address.
 
-The live link can be found here - [Tuam Athletics Club Juveniles]
+The live link can be found here - [Tuam Athletics Club Juveniles] (https://lukas2020-code.github.io/TuamAC_Project/)
 
