@@ -1014,6 +1014,11 @@ input[type=reset]:hover {
     .gallery p {
         font-size: 20px;
     }
+
+    #form-section {
+        height: fit-content;
+        padding: 5%;
+    }
 }
 
 /* Maedia query for devices up to 992px - LANDSCAPE*/
@@ -1337,7 +1342,8 @@ input[type=reset]:hover {
     }
 
     #form-section {
-        padding: 2% 5%;
+        height: fit-content;
+        padding: 5%;
     }
 
     #thank-you {
@@ -1453,10 +1459,6 @@ input[type=reset]:hover {
         margin: 20px auto;
     }
 
-    #form-section {
-        padding: 2%;
-    }
-
     .contact-by-details label {
         white-space: nowrap;
     }
@@ -1515,11 +1517,11 @@ input[type=reset]:hover {
     .why-us-content h3 {
         font-size: 1rem;
         margin: 0;
-        padding-left: 5px;
+        padding-right: 5px;
     }
 
     .why-us-content img {
-        width: 130px;
+        width: 145px;
     }
 
     .competitions-message p {
