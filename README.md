@@ -85,7 +85,6 @@ There is also Contact Us website with form for users if they need to contact the
 
 ![About website image](docs/readme-images/about-page.png)
 
-
 - ### Gallery Website
 
   - The gallery will provide the user with images of Tuam AC athletes in the competitions they have participated in.
@@ -139,33 +138,37 @@ The main fonts which I used for the website are Lato, Open Sans and Roboto. All 
 - #### HTML
 
   - No errors where found when go threw the W3C Markup Validator
-    - [W3C Validator Result] ( tutaj adres strony z wynikiem)
+    - [W3C Validator Result] (https://validator.w3.org/nu/?doc=https%3A%2F%2Flukas2020-code.github.io%2FTuamAC_Project%2F)
 
 - #### CSS
 
   - No errors were found when passing through the official W3C CSS Validator
-    - [W3C CSS Validator Results] (tutaj adres strony W3C z wynikiem)
+    - [W3C CSS Validator Results] (https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-lukas2020-code-tuamac-pr-o3pzfgis6j.us2.codeanyapp.com%2F)
 
 - #### Performance and Accessibility
+
   <!-- - The performance is good     -->
 
   - The site achieved a Lighthouse accessibility score of 100% which confirms that the colours and fonts chosen are easy to read and accessible.
 
 ![Lighthouse score] (zdjecie z wynikiem z testu lighthouse z folderu docs na githubie np. dosc/readme-images/lighthouse-testing.png)
 
-- #### Form Testing 
+- #### Form Testing
+
   - The form has been tested to ensure that it won't be submitted without filling the mandatory fields (name, email, phone no.,way of contact and reasons of contact) so the club can contact back with user.
 
-- #### Browser Testing 
+- #### Browser Testing
+
   - The websites were tested on Google Chrome, Microsoft Edge, Opera, Firefox, Brave and Safari with no issue found.
 
-- #### Device Testing 
+- #### Device Testing
   - The website was test on several different devices by familly members and friends to check the responsiveness. Devices includes: Desktop, Laptops (various creen sizes), Tablets (Samsung Tab6, Huawei Media Pad5) and Phones (Huawei P9, Nokia G20, IPhone 14).
 
 ## Bugs
 
-- ### Conatct website 
-  - In phone number input user can also write a letters if use a laptop or desktop keyboard. For tablet and phones it shows a numeric keypad to write the number.
+- ### Conatct website
+
+  - In phone number input, user can also write a letters if use a laptop or desktop keyboard. For tablet and phones it shows a numeric keypad to write the number.
 
 - ### Thank you site
   - In footer the social media section is not visible. Don't know how to fix this. Will look for solution.
@@ -178,7 +181,14 @@ The main fonts which I used for the website are Lato, Open Sans and Roboto. All 
 
 ### Framework - Libraries - Programs Used
 
-- [Am i Responsive](https://ui.dev/amiresponsive) - used to check responsivenes of the website on different screen devices
+- [Am i Responsive](https://ui.dev/amiresponsive) - used to check responsivenes of the websites on different screen devices.
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Used for overall development including testing responsiveness and performance.
+- [Font Awesome](https://fontawesome.com/) - Used for heading in welcome section and Social Media icons in footer.
+- [Codeanywhere](https://codeanywhere.com/) - Use to wrtite and style the websites and deploy to git hub.
+- [GitHub](https://github.com/) - Used for version control and hosting.
+- [Google Fonts](https://fonts.google.com/) - Used to import and alter fonts on the page.
+- [TinyPNG](https://tinypng.com/) - Used to compress images to reduce file size without a reduction in quality.
+- [W3C](https://www.w3.org/) - Used for HTML & CSS Validation.
 
 ## Deployment
 
@@ -187,8 +197,35 @@ The project was deployed using GitHub pages. The steps to deploy using GitHub pa
 1. Go to the repository on GitHub.com
 2. Select 'Settings' near the top of the page.
 3. Select 'Pages' from the menu bar on the left of the page.
-4. Under 'Source' select the 'Branch' dropdown menu and select the main branch.
+4. In Build and deployment section select source select the 'Branch' dropdown menu and select the main branch.
 5. Once selected, click the 'Save'.
 6. Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address.
 
-The live link can be found here - [Tuam Athletics Club Juveniles] (https://lukas2020-code.github.io/TuamAC_Project/)
+The website can be found here - [Tuam Athletics Club Juveniles] (https://lukas2020-code.github.io/TuamAC_Project/)
+
+## Credits
+
+### Content
+
+- All athletes images are from my private source. They were taken by my wife during competitions.
+- The history of the Tuam AC club was found here - [Tuam AC website] (https://exerisebp.wordpress.com/athletics/)
+- History of Tuam AC Juvenile section - source Paddy Gillmore.
+
+### Media
+
+All other images which were used are from these websites
+
+- [Unsplash](https://unsplash.com/)
+  - Steven Lelham - Arow shape runners
+  - Tirza van Dijk -
+  - Blocks Fletcher - Black Track and Field
+
+-[FreeImages](https://freeimages.com) - Lilja - Red outdoor running track
+
+### Resources Used
+
+## Acknowledgments
+
+My mentor Antonio Rodriguez for his support and advice.
+
+The Code Institute slack community for their quick responses, advices and helpful feedback.
