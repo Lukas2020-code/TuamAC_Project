@@ -540,6 +540,7 @@ a {
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .footer-content {
@@ -581,6 +582,12 @@ a {
 .footer-right a {
     font-family: inherit;
     margin-left: 10px;
+}
+
+
+.w3c-css-validator {
+    text-align: center;
+    margin: 20px auto;
 }
 
 /* End of Footer */

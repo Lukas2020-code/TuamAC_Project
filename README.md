@@ -1,6 +1,6 @@
 # Tuam AC Juvenile Section
 
-Tuam AC is a website that introduces the club to the local community as well as the rest of the Irish resident.
+Tuam AC is a website that introduces the club to the local community as well as the rest of the Irish residents.
 
 The Tuam AC Juveniles website is about the youth section of the Tuam Athletics Club. Its main purpose is to inform people about the club in the Tuam area, County Galway, Ireland. As well as about the disciplines that young people are practiced in the club.
 
@@ -24,13 +24,13 @@ User should be able to find information about the disciplines which are training
 Tuam AC Juveniles includes welcome message from the club committe and disciplines the club is participating.
 There is also a Why us section, which tell the users why they should join this club as well as competition type the club is taking part and basic information about trainings - days, times and places - which could be find on the google mini maps.
 It also contains an About page with minimal information about the club but with information about the beginning of the youth section, and this is the main theme of the page.
-The gallery page shows pictures from the last competitions which club athletes took part.
+The gallery page shows pictures from the last competitions which club athletes were participated.
 There is also Contact Us website with form for users if they need to contact the club.
 
 ### Existing Features
 
 - ### Navigation Bar
-  - The fully responsive navigation bar includes club logo, club name and navigation links to Club Logo, Home, Why Us?, Competitions, Trainings, About, Gallery and Contact Us.
+  - The fully responsive navigation bar includes club logo, club name and navigation links to Home, About, Gallery and Contact Us pages as well as Why Us?, Competitions and Trainings sections.
 
 ![Nav bar image](docs/readme-images/nav-bar.png)
 
@@ -48,7 +48,7 @@ There is also Contact Us website with form for users if they need to contact the
 - ### Why Us? Section
 
   - This section shows five reasons why the new user should join the club.
-  - For each reason there is an image to better understanding the reason and give users a feeling that they should join the club.
+  - For each reason there is an image to better understanding the reason and give users a feeling why they should join the club.
   - Each reason has different background and frame color taken from the Olympic flag to give the user a sense that this club is something special.
   - There is also a link to Contact Us website to help the user contact the club.
 
@@ -64,7 +64,7 @@ There is also Contact Us website with form for users if they need to contact the
 
 - ### Trainings Section
 
-  - This section is to inform the user on what days and at what time there is training for children.
+  - This section is to inform the user on what days and what time there is training for children.
   - It also lists the location where the training will take place with an attached map for easier finding.
 
 ![Trainings section image](docs/readme-images/trainings-section.png)
@@ -76,25 +76,25 @@ There is also Contact Us website with form for users if they need to contact the
 
   - It also provodes likns to club Code of Conduct and Polices which should open in a pop up window.
   - There is also club logo link in the middle of the footer which allow user to go back on the main page.
-  - It also includes a copyright and designer information as well as allow user to contact the owner of the page throught the email.
+  - It's also includes a copyright and designer information as well as allow user to contact the owner of the page throught the email.
 
 ![Footer image](docs/readme-images/footer.png)
 
 - ### About Website
-  - The About section will give user a short brief of the beggining of Tuam AC. It also provides information about start of juveniles section under the Tuam AC.
+  - The About website will give user a short brief of the beggining of Tuam AC. It also provides information about start of juveniles section under the Tuam AC.
 
 ![About website image](docs/readme-images/about-page.png)
 
-<!--
+
 - ### Gallery Website
-    - The gallery will provide the user with images of Tuam AC athletes in the competitions they have participated in.
- -->
+
+  - The gallery will provide the user with images of Tuam AC athletes in the competitions they have participated in.
 
 ![Gallery website image](docs/readme-images/gallery-page.png)
 
 - ### Contact Website
 
-  - This page allow user to contact with the club.
+  - This website allow user to contact with the club.
   - It also specify that the user should fill the form in given way and mandatory fields should be fill in exact way for the form could be submitted.
   - It also provides user with an option about the reason of contact like joining the club, trainings, competitions or general querie.
 
@@ -103,6 +103,7 @@ There is also Contact Us website with form for users if they need to contact the
 - ### Thank You Website
 
   - This wesite provide a information to the user that the form was succecfully submitted.
+  - There is also a link link in that message that will take user back to home website.
 
 ![Thank you website](docs/readme-images/thank-you-page.png)
 
@@ -113,6 +114,7 @@ There is also Contact Us website with form for users if they need to contact the
   - Add the Hamburger Menu icon for small screen resolution when the header content takes to much space.
 
 - #### Footer
+
   - The Code of Conduct and Polices links should open in pop up windows
 
 ## Design
@@ -124,11 +126,11 @@ The rest pictures/images are taken from [!Unsplash](https://unsplash.com/) websi
 
 ### Colors
 
-The main colors of the website are white and green. Both where took from the club logo. Only for the Why Us? section I used olimpic rings colors for the five reasons why to join..
+The main colors of the website are white and green. Both where took from the club logo. Only for the Why Us? section I used olimpic rings colors for the five reasons why to join the club.
 
 ### Fonts
 
-The main fonts which I used for the website are Lato, Open Sans and Roboto. All were imported via [Google Fonts](https://fonts.google.com/). Also I'm using sans-serif font as a backup in case if the main fonts won't be imported into the website correctly.
+The main fonts which I used for the website are Lato, Open Sans and Roboto. All were imported via [Google Fonts](https://fonts.google.com/). Also I'm using sans-serif font as a backup just in case if one the main fonts won't be imported into the website correctly.
 
 ## Testing
 
@@ -144,12 +146,26 @@ The main fonts which I used for the website are Lato, Open Sans and Roboto. All 
   - No errors were found when passing through the official W3C CSS Validator
     - [W3C CSS Validator Results] (tutaj adres strony W3C z wynikiem)
 
-- #### Accessibility
-  - The site achieved a Lighthouse accessibility score of 100% which confirms that the colours and fonts chosen are easy to read and accessible
+- #### Performance and Accessibility
+  <!-- - The performance is good     -->
+
+  - The site achieved a Lighthouse accessibility score of 100% which confirms that the colours and fonts chosen are easy to read and accessible.
 
 ![Lighthouse score] (zdjecie z wynikiem z testu lighthouse z folderu docs na githubie np. dosc/readme-images/lighthouse-testing.png)
 
+- #### Form Testing 
+  - The form has been tested to ensure that it won't be submitted without filling the mandatory fields (name, email, phone no.,way of contact and reasons of contact) so the club can contact back with user.
+
+- #### Browser Testing 
+  - The websites were tested on Google Chrome, Microsoft Edge, Opera, Firefox, Brave and Safari with no issue found.
+
+- #### Device Testing 
+  - The website was test on several different devices by familly members and friends to check the responsiveness. Devices includes: Desktop, Laptops (various creen sizes), Tablets (Samsung Tab6, Huawei Media Pad5) and Phones (Huawei P9, Nokia G20, IPhone 14).
+
 ## Bugs
+
+- ### Conatct website 
+  - In phone number input user can also write a letters if use a laptop or desktop keyboard. For tablet and phones it shows a numeric keypad to write the number.
 
 - ### Thank you site
   - In footer the social media section is not visible. Don't know how to fix this. Will look for solution.
