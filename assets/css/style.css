@@ -745,7 +745,13 @@ a {
 }
 
 .form-reasons {
-    margin-bottom: 10px;
+    margin: 15px 0;
+}
+
+.form-reasons #reasons {
+    width: 100%;
+    padding: 3px;
+    margin-top: 5px;
 }
 
 .form-message label {
@@ -771,10 +777,7 @@ textarea {
 }
 
 
-.form-reasons #reasons {
-    width: 100%;
-    padding: 3px;
-}
+
 
 input[type=submit] {
     color: #fff;
