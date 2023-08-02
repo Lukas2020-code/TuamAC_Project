@@ -248,7 +248,7 @@ All other images which were used are from these websites
 
 ### Resources Used
 
-- HTML rules - [Free Code Camp](https://www.youtube.com/watch?v=kUMe1FH4CHE)
+- HTML rules - [Free Code Camp - Learn HTML](https://www.youtube.com/watch?v=kUMe1FH4CHE)
 - Overal CSS Rules - [Free Code Camp - CSS Tutorial](https://www.youtube.com/watch?v=OXGznpKZ_sA&t=7232s)
 
 ## Acknowledgments
