@@ -292,7 +292,7 @@ a {
 }
 
 .why-us-content img {
-    width: 300px;
+    width: 250px;
     height: auto;
 }
 
@@ -1002,10 +1002,6 @@ input[type=reset]:hover {
     .why-us-content h3 {
         font-size: 1.5rem;
         padding: 0 30px;
-    }
-
-    .why-us-content img {
-        width: 250px;
     }
 
     .competitions-content {
