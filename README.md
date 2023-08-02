@@ -151,9 +151,11 @@ The main fonts which I used for the website are Lato, Open Sans and Roboto. All 
 
   - The site achieved a Lighthouse accessibility score of 100% which confirms that the colours and fonts chosen are easy to read and accessible.
 
+![Lighthouse score](docs/readme-images/lighthouse-score.png)
+
 - #### Form Testing
 
-  - The form has been tested to ensure that it won't be submitted without filling the mandatory fields (name, email, phone no.,way of contact and reasons of contact) so the club can contact back with user.
+  - The form has been tested to ensure that it won't be submitted without filling the mandatory fields (name, email, phone no., way of contact and reason of contact) so the club can contact back with user.
 
 - #### Browser Testing
 
@@ -214,22 +216,27 @@ The website can be found here - [Tuam Athletics Club Juveniles](https://lukas202
 All other images which were used are from these websites
 
 - [Unsplash](https://unsplash.com/)
-  - Steven Lelham - Arow shape runners
-  - Tirza van Dijk -
-  - Blocks Fletcher - Black Track and Field
+  - Steven Lelham - Arow shape runners - Form image
+  - Tirza van Dijk - Training image
+  - Blocks Fletcher - Black Track and Field - Why us? image
+  - Alejandro Barba - Indoor blue track image
 
 -[FreeImages](https://freeimages.com)
 
-- Lilja - Red outdoor running track
+- Lilja - Outdoor red running track
 
 -[FreePik](https://www.freepik.com)
 
-- rawpixel.com - Wooden floor background
+- freepik - Crosscountry image
+- rawpixel.com - About background
 
 ### Resources Used
+
+- HTML rules - [Free Code Camp](https://www.youtube.com/watch?v=kUMe1FH4CHE)
+- Overal CSS Rules - [Free Code Camp - CSS Tutorial](https://www.youtube.com/watch?v=OXGznpKZ_sA&t=7232s)
 
 ## Acknowledgments
 
 My mentor Antonio Rodriguez for his support and advice.
 
-The Code Institute slack community for their quick responses, advices and helpful feedback.
+The Code Institute slack community, especially the may-2023-lwetb group for their quick responses, advices and helpful feedback.
