@@ -147,11 +147,9 @@ The main fonts which I used for the website are Lato, Open Sans and Roboto. All 
 
 - #### Performance and Accessibility
 
-  <!-- - The performance is good     -->
+  - Pertformance achived by site is on a very good level. Site load fast and user can enjoy it right away.
 
   - The site achieved a Lighthouse accessibility score of 100% which confirms that the colours and fonts chosen are easy to read and accessible.
-
-<!-- ![Lighthouse score] (picture with test result from lighthouse (docs on githubie e.g. dosc/readme-images/lighthouse-testing.png) -->
 
 - #### Form Testing
 
