@@ -161,6 +161,10 @@ The main fonts which I used for the website are Lato, Open Sans and Roboto. All 
 
 ![Lighthouse score](docs/readme-images/lighthouse-score.png)
 
+- #### Navigation Testing
+
+  - All link to other websites and sections were tested. User can easily navigate through the sections and websites.
+
 - #### Form Testing
 
   - The form has been tested to ensure that it won't be submitted without filling the mandatory fields (name, email, phone no., way of contact and reason of contact) so the club can contact back with user.
