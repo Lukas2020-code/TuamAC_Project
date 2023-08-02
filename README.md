@@ -138,12 +138,12 @@ The main fonts which I used for the website are Lato, Open Sans and Roboto. All 
 - #### HTML
 
   - No errors where found when go threw the W3C Markup Validator
-    - [W3C Validator Result] (https://validator.w3.org/nu/?doc=https%3A%2F%2Flukas2020-code.github.io%2FTuamAC_Project%2F)
+    - [W3C Validator Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Flukas2020-code.github.io%2FTuamAC_Project%2F)
 
 - #### CSS
 
   - No errors were found when passing through the official W3C CSS Validator
-    - [W3C CSS Validator Results] (https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-lukas2020-code-tuamac-pr-o3pzfgis6j.us2.codeanyapp.com%2F)
+    - [W3C CSS Validator Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-lukas2020-code-tuamac-pr-o3pzfgis6j.us2.codeanyapp.com%2F)
 
 - #### Performance and Accessibility
 
@@ -151,7 +151,7 @@ The main fonts which I used for the website are Lato, Open Sans and Roboto. All 
 
   - The site achieved a Lighthouse accessibility score of 100% which confirms that the colours and fonts chosen are easy to read and accessible.
 
-![Lighthouse score] (zdjecie z wynikiem z testu lighthouse z folderu docs na githubie np. dosc/readme-images/lighthouse-testing.png)
+<!-- ![Lighthouse score] (picture with test result from lighthouse (docs on githubie e.g. dosc/readme-images/lighthouse-testing.png) -->
 
 - #### Form Testing
 
@@ -168,7 +168,7 @@ The main fonts which I used for the website are Lato, Open Sans and Roboto. All 
 
 - ### Conatct website
 
-  - In phone number input, user can also write a letters if use a laptop or desktop keyboard. For tablet and phones it shows a numeric keypad to write the number.
+  - In phone number input, user can also write a letters if use a laptop or desktop keyboard. For tablet and phones it shows a numeric keypad to write the number. I found out that not all browsers support input type="tel" and they fall back to standard text input.
 
 - ### Thank you site
   - In footer the social media section is not visible. Don't know how to fix this. Will look for solution.
@@ -201,14 +201,14 @@ The project was deployed using GitHub pages. The steps to deploy using GitHub pa
 5. Once selected, click the 'Save'.
 6. Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address.
 
-The website can be found here - [Tuam Athletics Club Juveniles] (https://lukas2020-code.github.io/TuamAC_Project/)
+The website can be found here - [Tuam Athletics Club Juveniles](https://lukas2020-code.github.io/TuamAC_Project/)
 
 ## Credits
 
 ### Content
 
 - All athletes images are from my private source. They were taken by my wife during competitions.
-- The history of the Tuam AC club was found here - [Tuam AC website] (https://exerisebp.wordpress.com/athletics/)
+- The history of the Tuam AC club was found here - [Tuam AC website](https://exerisebp.wordpress.com/athletics/)
 - History of Tuam AC Juvenile section - source Paddy Gillmore.
 
 ### Media
@@ -220,7 +220,13 @@ All other images which were used are from these websites
   - Tirza van Dijk -
   - Blocks Fletcher - Black Track and Field
 
--[FreeImages](https://freeimages.com) - Lilja - Red outdoor running track
+-[FreeImages](https://freeimages.com)
+
+- Lilja - Red outdoor running track
+
+-[FreePik](https://www.freepik.com)
+
+- rawpixel.com - Wooden floor background
 
 ### Resources Used
 
