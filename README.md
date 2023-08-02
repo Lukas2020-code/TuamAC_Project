@@ -8,14 +8,14 @@ The link to the website can be found here - [Tuam AC Juveniles](https://lukas202
 
 ![Tuam AC Juveniles Am I Responsive Image](docs/readme-images/am-i-responsive.png)
 
-## Site owner goals
+## Site Owner Goals
 
 - Provide the user with information about the sports that are practiced in the club.
 - Provide the user with the necessary information about trainings - day, time and place, that can be easily found on google map.
 - Present a brief history of the club - when Tuam AC was founded and when the youth section was established.
 - Give the user the opportunity to contact the club about joining the club, trainings, competitions or any other matter.
 
-## User view
+## User View
 
 User should be able to find information about the disciplines which are training within the club. It should also find the information about trainings, competitions and be able to contact the club if have any questions.
 
@@ -35,7 +35,7 @@ There is also Contact Us website with form for users if they need to contact the
 
 ![Nav bar image](docs/readme-images/nav-bar.png)
 
-- ### The landing page image
+- ### The Landing Page Image
 
   - The landig image includes athletes of Tuam AC with a text that include the club spirit.
 
@@ -163,11 +163,11 @@ The main fonts which I used for the website are Lato, Open Sans and Roboto. All 
 
 - #### Navigation Testing
 
-  - All link to other websites and sections were tested. User can easily navigate through the sections and websites.
+  - All link to other websites and sections were tested and are working. User can easily navigate through the sections and websites.
 
 - #### Form Testing
 
-  - The form has been tested to ensure that it won't be submitted without filling the mandatory fields (name, email, phone no., way of contact and reason of contact) so the club can contact back with user.
+  - The form has been tested to ensure that user won't submit it without filling the mandatory fields (name, email, phone no., way of contact and reason of contact) so the club can contact back with user.
 
 - #### Browser Testing
 
@@ -175,11 +175,11 @@ The main fonts which I used for the website are Lato, Open Sans and Roboto. All 
 
 - #### Device Testing
 
-  - The website was test on several different devices by familly members and friends to check the responsiveness. Devices includes: Desktop, Laptops (various creen sizes), Tablets (Samsung Tab6, Huawei Media Pad5) and Phones (Huawei P9, Nokia G20, IPhone 14).
+  - The website was test on several different devices by familly members and friends to check how it behavies. Devices includes: Desktop, Laptops (various creen sizes), Tablets (Samsung Tab6, Huawei Media Pad5) and Phones (Huawei P9, Nokia G20, IPhone 14).
 
 ## Bugs
 
-- ### Conatct website
+- ### Contact website
 
   - In phone number input, user can also write a letters if use a laptop or desktop keyboard. For tablet and phones it shows a numeric keypad to write the number. I found out that not all browsers support input type="tel" and they fall back to standard text input.
 
@@ -189,28 +189,29 @@ The main fonts which I used for the website are Lato, Open Sans and Roboto. All 
 
 ## Fixed Bugs
 
-- On wide but not height screens the form was outside the section and bacgroung image. Change the height of the form to fit-content and add more padding aroun the form.
+- On wide but not height screens the form was outside the section and background image. Change the height of the form to fit-content and add more padding aroun the form fix the issue.
 
 ## Technologies Used
 
 - ### Languages
+
 - HTML 5
 - CSS
 
 ### Framework - Libraries - Programs Used
 
-- [Am i Responsive](https://ui.dev/amiresponsive) - used to check responsivenes of the websites on different screen devices.
-- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Used for overall development including testing responsiveness and performance.
-- [Font Awesome](https://fontawesome.com/) - Used for heading in welcome section and Social Media icons in footer.
 - [Codeanywhere](https://codeanywhere.com/) - Use to wrtite and style the websites and deploy to git hub.
 - [GitHub](https://github.com/) - Used for version control and hosting.
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Used for overall development including testing responsiveness and performance.
+- [Font Awesome](https://fontawesome.com/) - Used for heading in welcome section and Social Media icons in footer.
 - [Google Fonts](https://fonts.google.com/) - Used to import and alter fonts on the page.
 - [TinyPNG](https://tinypng.com/) - Used to compress images to reduce file size without a reduction in quality.
+- [Am i Responsive](https://ui.dev/amiresponsive) - used to check responsivenes of the websites on different screen devices.
 - [W3C](https://www.w3.org/) - Used for HTML & CSS Validation.
 
 ## Deployment
 
-The project was deployed using GitHub pages. The steps to deploy using GitHub pages are:
+The project was deployed using GitHub pages. The steps to deploy are:
 
 1. Go to the repository on GitHub.com
 2. Select 'Settings' near the top of the page.
@@ -219,9 +220,9 @@ The project was deployed using GitHub pages. The steps to deploy using GitHub pa
 5. Once selected, click the 'Save' button.
 6. Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address. Like this:
 
-![Succesfully deployed padge](docs/readme-images/succesfully-page-deployment.png)
+![Succesfully deployed page](docs/readme-images/succesfully-page-deployment.png)
 
-The website can be found here - [Tuam Athletics Club Juveniles](https://lukas2020-code.github.io/TuamAC_Project/)
+Live page will look like this - [Tuam Athletics Club Juveniles](https://lukas2020-code.github.io/TuamAC_Project/)
 
 ## Credits
 
@@ -233,7 +234,7 @@ The website can be found here - [Tuam Athletics Club Juveniles](https://lukas202
 
 ### Media
 
-All other images which were used are from these websites
+All other images which were used are from these websites:
 
 - [Unsplash](https://unsplash.com/)
   - Steven Lelham - Arow shape runners - Form image
