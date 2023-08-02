@@ -695,7 +695,7 @@ a {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 100vh;
+    height: fit-content;
     background-image: url('../images/background/form-image.jpg');
     background-position: center;
     background-size: cover;
@@ -783,9 +783,6 @@ textarea {
     max-width: 100%;
 }
 
-
-
-
 input[type=submit] {
     color: #fff;
     background-color: rgb(8, 138, 43);
@@ -825,12 +822,11 @@ input[type=reset]:hover {
     justify-content: flex-start;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    height: fit-content;
     background-image: url('../images/background/form-image.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
     padding: 5% 10%;
 }
 
@@ -893,11 +889,6 @@ input[type=reset]:hover {
 
     .photos {
         column-count: 3;
-    }
-
-    #thank-you {
-        padding: 5% 10%;
-        height: 80vh;
     }
 }
 
@@ -1018,12 +1009,11 @@ input[type=reset]:hover {
     }
 
     #form-section {
-        height: fit-content;
         padding: 5%;
     }
 
     #thank-you {
-        padding: 10% 10%;
+        padding: 10%;
     }
 }
 
@@ -1190,7 +1180,6 @@ input[type=reset]:hover {
 
     #thank-you {
         align-items: center;
-        padding: 0 10%;
     }
 
     #thank-you h2 {
@@ -1354,7 +1343,6 @@ input[type=reset]:hover {
     }
 
     #thank-you {
-        height: fit-content;
         align-items: center;
         padding: 5%;
     }
