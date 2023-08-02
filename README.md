@@ -30,16 +30,19 @@ There is also Contact Us website with form for users if they need to contact the
 ### Existing Features
 
 - ### Navigation Bar
+
   - The fully responsive navigation bar includes club logo, club name and navigation links to Home, About, Gallery and Contact Us pages as well as Why Us?, Competitions and Trainings sections.
 
 ![Nav bar image](docs/readme-images/nav-bar.png)
 
 - ### The landing page image
+
   - The landig image includes athletes of Tuam AC with a text that include the club spirit.
 
 ![Hero image](docs/readme-images/hero-image.png)
 
 - ### Welcome
+
   - The welcome section introduce a friendly welcome message for user. It's also given user a direction to different parts of the website (trainings) or to another websites (contact us and gallery).
   - It also contains information about the disciplines that can be practiced in the club.
 
@@ -81,6 +84,7 @@ There is also Contact Us website with form for users if they need to contact the
 ![Footer image](docs/readme-images/footer.png)
 
 - ### About Website
+
   - The About website will give user a short brief of the beggining of Tuam AC. It also provides information about start of juveniles section under the Tuam AC.
 
 ![About website image](docs/readme-images/about-page.png)
@@ -121,7 +125,11 @@ There is also Contact Us website with form for users if they need to contact the
 ### Images
 
 All athletes images are from my private collection and they were took over the different competitions during the 2023.
-The rest pictures/images are taken from [!Unsplash](https://unsplash.com/) website.
+The rest pictures/images are taken from [!Unsplash](https://unsplash.com/), and [FreeImages](https://www.freeimages.com/) and [Freepik](https://www.freepik.com/).
+
+### Icons
+
+Icons were taken from [FontAwesome](https://fontawesome.com/) and [Freepik](https://www.freepik.com/).
 
 ### Colors
 
@@ -162,6 +170,7 @@ The main fonts which I used for the website are Lato, Open Sans and Roboto. All 
   - The websites were tested on Google Chrome, Microsoft Edge, Opera, Firefox, Brave and Safari with no issue found.
 
 - #### Device Testing
+
   - The website was test on several different devices by familly members and friends to check the responsiveness. Devices includes: Desktop, Laptops (various creen sizes), Tablets (Samsung Tab6, Huawei Media Pad5) and Phones (Huawei P9, Nokia G20, IPhone 14).
 
 ## Bugs
@@ -171,7 +180,12 @@ The main fonts which I used for the website are Lato, Open Sans and Roboto. All 
   - In phone number input, user can also write a letters if use a laptop or desktop keyboard. For tablet and phones it shows a numeric keypad to write the number. I found out that not all browsers support input type="tel" and they fall back to standard text input.
 
 - ### Thank you site
-  - In footer the social media section is not visible. Don't know how to fix this. Will look for solution.
+
+  - In footer the social media section is not visible. Will look for solution to fix it.
+
+## Fixed Bugs
+
+- On wide but not height screens the form was outside the section and bacgroung image. Change the height of the form to fit-content and add more padding aroun the form.
 
 ## Technologies Used
 
@@ -197,9 +211,11 @@ The project was deployed using GitHub pages. The steps to deploy using GitHub pa
 1. Go to the repository on GitHub.com
 2. Select 'Settings' near the top of the page.
 3. Select 'Pages' from the menu bar on the left of the page.
-4. In Build and deployment section select source select the 'Branch' dropdown menu and select the main branch.
-5. Once selected, click the 'Save'.
-6. Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address.
+4. In Build and deployment section, select "Source" dropdown menu and select Deploy from branch, then select the 'Branch' dropdown menu and select the main branch.
+5. Once selected, click the 'Save' button.
+6. Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address. Like this:
+
+![Succesfully deployed padge](docs/readme-images/succesfully-page-deployment.png)
 
 The website can be found here - [Tuam Athletics Club Juveniles](https://lukas2020-code.github.io/TuamAC_Project/)
 
