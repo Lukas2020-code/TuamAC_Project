@@ -129,7 +129,7 @@ The rest pictures/images are taken from [!Unsplash](https://unsplash.com/), and 
 
 ### Icons
 
-Icons were taken from [FontAwesome](https://fontawesome.com/) and [Freepik](https://www.freepik.com/).
+Icons were taken from [FontAwesome](https://fontawesome.com/) - index.html heading and [Freepik](https://www.freepik.com/) - disciplines.
 
 ### Colors
 
