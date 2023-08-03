@@ -13,11 +13,11 @@ The link to the website can be found here - [Tuam AC Juveniles](https://lukas202
 - Provide the user with information about the sports that are practiced in the club.
 - Provide the user with the necessary information about trainings - day, time and place, that can be easily found on google map.
 - Present a brief history of the club - when Tuam AC was founded and when the youth section was established.
-- Give the user the opportunity to contact the club about joining the club, trainings, competitions or any other matter.
+- Give user the opportunity to contact the club about: joining the club, trainings, competitions or any other matter.
 
 ## User View
 
-User should be able to find information about the disciplines which are training within the club. It should also find the information about trainings, competitions and be able to contact the club if have any questions.
+User should be able to find information about the club. The history of Juveniles section, the disciplines that young people are training within the club. It should also find the information about competitions and be able to contact the club if have any questions.
 
 ## Features
 
@@ -31,7 +31,7 @@ There is also Contact Us website with form for users if they need to contact the
 
 - ### Navigation Bar
 
-  - The fully responsive navigation bar includes club logo, club name and navigation links to Home, About, Gallery and Contact Us pages as well as Why Us?, Competitions and Trainings sections.
+  - The navigation bar is fully responsive and includes: club logo, club name and navigation links to Home, About, Gallery and Contact Us pages as well as Why Us?, Competitions and Trainings sections.
 
 ![Nav bar image](docs/readme-images/nav-bar.png)
 
@@ -44,13 +44,13 @@ There is also Contact Us website with form for users if they need to contact the
 - ### Welcome
 
   - The welcome section introduce a friendly welcome message for user. It's also given user a direction to different parts of the website (trainings) or to another websites (contact us and gallery).
-  - It also contains information about the disciplines that can be practiced in the club.
+  - It also contains information about the disciplines that are practiced in the club.
 
 ![Welcome image](docs/readme-images/welcome-section.png)
 
 - ### Why Us? Section
 
-  - This section shows five reasons why the new user should join the club.
+  - This section shows five reasons why the user should join the club if not already done.
   - For each reason there is an image to better understanding the reason and give users a feeling why they should join the club.
   - Each reason has different background and frame color taken from the Olympic flag to give the user a sense that this club is something special.
   - There is also a link to Contact Us website to help the user contact the club.
@@ -60,15 +60,15 @@ There is also Contact Us website with form for users if they need to contact the
 
 - ### Competitions Section
 
-  - Introduce the user the three main competitions in which Tuam AC athletes take part during the season year (Indoor, Outdoor, Cross Contry).
-  - Each event is divided by three competition types - Indoor, Outdoor and All-Ireland.
+  - Introduce user the three main competitions in which Tuam AC athletes take part during the season year (Indoor, Outdoor, Cross Contry).
+  - Each event is divided by three competition types - Galway, Connaght and All-Ireland.
 
 ![Competitions section image](docs/readme-images/competitions-section.png)
 
 - ### Trainings Section
 
-  - This section is to inform the user on what days and what time there is training for children.
-  - It also lists the location where the training will take place with an attached map for easier finding.
+  - This section is to inform the user on what days and what time there is training for childrens.
+  - It also shows the location where the training will take place with a google map attached for easier finding.
 
 ![Trainings section image](docs/readme-images/trainings-section.png)
 
@@ -76,9 +76,8 @@ There is also Contact Us website with form for users if they need to contact the
 
   - The footer includes links to the relevant social media platforms such as Facebook, Instagram, Twitter and YouTube.
   - The links are open in new tabs to provide easy navigation for the user.
-
-  - It also provodes likns to club Code of Conduct and Polices which should open in a pop up window.
-  - There is also club logo link in the middle of the footer which allow user to go back on the main page.
+  - It also provides links to club Code of Conduct and Polices which should open in a pop up window.
+  - There is also club logo link in the middle of the footer which allow user to go back to top of the current page.
   - It's also includes a copyright and designer information as well as allow user to contact the owner of the page throught the email.
 
 ![Footer image](docs/readme-images/footer.png)
@@ -98,7 +97,7 @@ There is also Contact Us website with form for users if they need to contact the
 - ### Contact Website
 
   - This website allow user to contact with the club.
-  - It also specify that the user should fill the form in given way and mandatory fields should be fill in exact way for the form could be submitted.
+  - It also specify that the user should fill the form in given way and mandatory fields should be fill in exact way for the form to be submitted.
   - It also provides user with an option about the reason of contact like joining the club, trainings, competitions or general querie.
 
 ![Contact website image](docs/readme-images/contact-page.png)
@@ -106,7 +105,7 @@ There is also Contact Us website with form for users if they need to contact the
 - ### Thank You Website
 
   - This wesite provide a information to the user that the form was succecfully submitted.
-  - There is also a link link in that message that will take user back to home website.
+  - There is also a link in that message that will take user back to index.html website.
 
 ![Thank you website](docs/readme-images/thank-you-page.png)
 
@@ -120,16 +119,20 @@ There is also Contact Us website with form for users if they need to contact the
 
   - The Code of Conduct and Polices links should open in pop up windows
 
+- #### Gallery
+
+- Add the dropdown menu so the user can choose from which competitions he/she wants to see the photos (Competition Year, Competition Type and Competition Stage). It will avoid to put the pictures directly on the website and will increase performance of that website. All pictures could be store in database on the server.
+
 ## Design
 
 ### Images
 
-All athletes images are from my private collection and they were took over the different competitions during the 2023.
-The rest pictures/images are taken from [!Unsplash](https://unsplash.com/), and [FreeImages](https://www.freeimages.com/) and [Freepik](https://www.freepik.com/).
+All athletes images are from my private collection and they were took over the different competitions during the 2023 year.
+The rest pictures/images are taken from [!Unsplash](https://unsplash.com/), [FreeImages](https://www.freeimages.com/) and [Freepik](https://www.freepik.com/).
 
 ### Icons
 
-Icons were taken from [FontAwesome](https://fontawesome.com/) - index.html heading and [Freepik](https://www.freepik.com/) - disciplines.
+Icons were taken from [FontAwesome](https://fontawesome.com/) - index.html heading and [Freepik](https://www.freepik.com/) - index.html disciplines.
 
 ### Colors
 
@@ -155,7 +158,7 @@ The main fonts which I used for the website are Lato, Open Sans and Roboto. All 
 
 - #### Performance and Accessibility
 
-  - Pertformance achived by site is on a very good level. Site load fast and user can enjoy it right away.
+  - Pertformance achived by site is on a very good level. Site load fast and user can enjoyed it right away.
 
   - The site achieved a Lighthouse accessibility score of 100% which confirms that the colours and fonts chosen are easy to read and accessible.
 
@@ -163,11 +166,11 @@ The main fonts which I used for the website are Lato, Open Sans and Roboto. All 
 
 - #### Navigation Testing
 
-  - All link to other websites and sections were tested and are working. User can easily navigate through the sections and websites.
+  - All link to other websites and sections were tested and are working fine. User can easily navigate through the sections and websites.
 
 - #### Form Testing
 
-  - The form has been tested to ensure that user won't submit it without filling the mandatory fields (name, email, phone no., way of contact and reason of contact) so the club can contact back with user.
+  - The form has been tested to ensure that user won't submit it without filling the mandatory fields (name, email, phone no., way of contact and reason of contact) so the club will be able to contact back with user.
 
 - #### Browser Testing
 
